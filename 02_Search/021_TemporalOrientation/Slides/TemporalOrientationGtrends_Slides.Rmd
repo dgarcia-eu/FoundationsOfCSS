@@ -1,0 +1,164 @@
+---
+title: "Measuring Temporal Orientation with Google Trends"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+
+# Time, culture, and the economy
+
+What is the relationship between culture and the economy?  
+
+![:scale 150%](Culture-Economy.png)
+
+---
+
+## Long-term orientation and economic development
+> **Long-Term Orientation (Geert Hofstede)**  
+Long-term oriented societies believe that the most important events in life will occur in the future; short-term oriented societies believe that those events occurred in the past or take place now.
+
+.center[![:scale 60%](FOIGDP.png)]
+
+---
+
+## Measuring the Future Orientation Index
+
+[Pres et al. 2012](https://www.nature.com/articles/srep00350) proposed a way to measure how much a society looks towards the future with Google Trends, the Future Orientation Index (FOI). The FOI for a country *c* on year *y* is calculated as:  
+
+.center[
+$FOI_{c,y} = \frac{G(y+1,y,c)}{G(y-1,y,c)}$
+]
+
+where $G(y_1,y_2,c)$ is the Google Trends volume for searches for year $y_1$ during year $y_2$ from country $c$. 
+
+The FOI measures the ratio of search volume from a country for next year divided by the search volume for the previous year in the same country.
+
+---
+
+# Gooogle Trends
+
+Google Trends is a website hosted by Google that allows you to get a measurement of Google search volume for a term
+
+<center>
+<img src="EU.png" alt="" width="900"/>  
+</center>
+
+---
+
+
+# Example of trends for FOI
+
+.center[![:scale 85%](FOI1.png)]
+
+---
+
+# Example of trends for FOI
+.center[![:scale 85%](FOI2.png)]
+
+---
+
+# Searching for various trends
+
+![Seems that people play minecraft during lockdowns.](GoogleTrendsExport1.png)    
+
+---
+
+# Exporting data
+![](Gtrends1.png)    
+---
+
+# Export file format
+
+![](fileView.png)
+
+---
+
+# Comparing regions
+
+A lower panel shows a comparison between countries or between regions within the country you filtered for.
+
+![](GoogleTrendsExport2.png)    
+
+---
+
+# Exporting map data
+![](Gtrends2.png)    
+- Check "Include low search volume regions"
+---
+
+# Export file format for maps
+
+![](fileView2.png)
+
+---
+
+## Disambiguating queries across languages
+
+![](jesusmohammad2021.png)
+
+
+---
+
+# The World Bank Development Indicators
+
+<center>
+<img src="worldbank.png" alt="" width="900"/>  
+</center>
+
+http://data.worldbank.org/
+ 
+---
+
+### Example: Life expectancy and economic development
+
+<center>
+<img src="GapMinder.png" alt="" width="800"/>  
+</center>
+
+https://www.gapminder.org/
+
+---
+
+
+# Searching for WDI Indicators
+
+<center>
+<img src="WDIinternet.png" alt="" width="1000"/>  
+</center>
+
+- You can search for indicators at http://databank.worldbank.org/wdi
+- Go to the left panel and to the "Series" tab to search
+- Press the "i" button to get more information, including the standard name
