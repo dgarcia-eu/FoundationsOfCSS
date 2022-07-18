@@ -1,0 +1,130 @@
+---
+title: "Structural Holes and Communities"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+# So far
+
+- Behavior traces
+  - Search behavior and future orientation
+  - Social trends: the Simmel effect
+  - Social impact theory: division of impact on Twitter
+  
+  
+- Analyzing text
+  - Dictionary methods: how to do it in R
+  - Supervised sentiment analysis
+
+
+- Social network analysis
+  - Basics of social networks: terminology
+  - The friendship paradox
+  - Centrality and social resilience
+
+
+---
+
+# Triadic closure
+
+
+<div style="float:right">
+<img src="closedTriad.png" alt="A strong tie." width=500pt/>
+</div>
+
+>  **Triadic closure:** The tendency of individuals in social networks to create links to neighbors at distance 2
+
+**Local clustering coefficient**:
+
+$$C_i = \frac{2*t(i)}{d_i *(d_i−1)}$$
+
+- $d_{out}(i)$ is the outdegree of $i$ (>1) 
+- $t(i)$ is the number of pairs of neighbors of $i$ that are connected
+- can be averaged or computed globally
+
+---
+
+# The strength of weak ties
+
+<div style="float:right">
+<img src="strongTie.png" alt="A strong tie." width=400pt/>
+</div>
+
+**Strong ties:** People who are very close to you (family, friends, etc.)
+- Provide reciprocal emotional support
+- Long-lasting, require energy and time
+
+**Weak ties:** People you know but not very close to you (colleagues from work, school, etc.)
+- Provide information, for example about employment and housing
+- Are also faster to disappear
+
+> **The strength of weak ties:** Weak ties are weaker than strong ties, but are also many more than strong ties. (Mark Granovetter) 
+
+---
+
+# Structural holes and communities
+
+.center[![:scale 45%](structuralHole.png)![:scale 45%](ModularNetwork.png)]
+
+
+---
+
+## When holes are bridged: The small world concept
+
+Small world networks have the following three properties:  
+- Most nodes are not neighbors (sparse network)  
+- The mean distance between two nodes is small  
+- They have high global clustering coefficient
+
+<div style="float:right">
+<img src="map_us.png" alt="Milgram's experiment." width=400pt/>
+</div>
+
+
+**Stanley Milgram's experiment:**
+
+- 160 people in Omaha try to reach one person in Boston by mail to their acquitances
+- 44 letters reached the target with six steps on average
+- Short path length as evidence of small-world
+- Average path length on Facebook is 4.5
+
+
+---
+
+# The Bacon number
+.center[![:scale 85%](bacon.png)]
+
+
