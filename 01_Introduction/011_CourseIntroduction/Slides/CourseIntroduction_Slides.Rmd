@@ -1,0 +1,144 @@
+---
+title: "Course Introduction"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+
+# About me
+
+.pull-left[
+.center[
+```{r, echo=FALSE, out.width=270}
+knitr::include_graphics("Profile.jpg")
+```
+]]
+
+.pull-right[
+<br>
+Website: [dgarcia.eu](https://dgarcia.eu)
+
+Twitter: [@dgarcia_eu](https://twitter.com/dgarcia_eu)
+
+Github: [dgarcia-eu](https://github.com/dgarcia-eu)
+
+Email: dgarcia@tugraz.at
+]
+
+- Professor for Computational Behavioral and Social Sciences at TU Graz
+- Professor for Social and Behavioral Data Science at the University of Konstanz
+- Faculty member of the Complexity Science Hub Vienna
+
+
+---
+
+# Course objectives
+
+1. Learning the fundamentals of computational methods and data science to study **human behavior** and technological phenomena in the digital society. 
+
+2. To understand methodological **opportunities and limitations**, as well as how to apply these methods in practical sessions.
+
+3. How to plan, execute, and reflect on the **empirical analysis** of digital trace data to address questions about human behavior and emergent technological phenomena. 
+
+4. Special emphasis on an **interdisciplinary approach** that can inform students from various disciplines.
+
+---
+
+# Course topics
+
+- **Introduction to Computational Social Systems**
+- **Search Behavior**
+- **Social Trends**
+- **Social Impact**
+- **Social Media Text Analysis**
+- **Supervised Sentiment Analysis**
+- **Social network analysis** 
+- **Centrality in social networks** 
+- **Social resilience of online communities** 
+- **Online social network structures** 
+- **Societal issues** 
+- **Ethical and scientific issues** 
+
+---
+
+# Exercises and practical sessions
+
+**TO DO: info on tutorials!!!**
+
+  - Exercise 1: Future orientation and economic development
+  - Exercise 2: Division of impact on Twitter
+  - Exercise 3: Evaluating sentiment analysis methods
+  - Exercise 4: Twitter network analysis
+
+---
+
+# Time, place, online
+
+- **TO DO: info on logistics!!!**
+
+Foundations of CSS Discord (only this course): https://discord.com/invite/HSCFE8fAdx Use it to ask for help!
+
+---
+
+
+# Projects information
+
+The assessment for the course is based on the final group research project.
+Groups can have at most 4 students and must mix students with different backgrounds.
+
+- Empirical analysis project: data retrieval, processing, analysis, and interpretation. 
+
+- Research questions are very important! (more about that later)
+
+- Can be linked to project in Introduction to CSS. Great opportunity to start working together on a follow-up project in the programme
+
+- We will post project ideas, you can pick from those, reproduce a previous paper, or bring your own idea. 
+
+---
+
+# Course assessment
+
+- The **group** project grade is a combination:
+  - ten-minute presentation (50%)
+  - six-page written report on the project (50%).
+
+- **Individual** extra points (max 20%) can be achieved by delivering solutions to optional exercises
+  - Each exercise is worth 5%
+  - Grade is pass/fail
+  - Feedback on solutions will be available in practice tutorials
+
+- Lecture+Exercises (VU): projects are mandatory
+
+- **Questions?**

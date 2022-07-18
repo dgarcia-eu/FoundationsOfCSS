@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Course Introduction</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="David Garcia    TU Graz" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Course Introduction
+]
+.author[
+### David Garcia <br><br> <em>TU Graz</em>
+]
+.date[
+### Foundations of Computational Social Systems
+]
+
+---
+
+
+
+
+
+
+layout: true
+
+&lt;div class="my-footer"&gt;&lt;span&gt;David Garcia - Foundations of Computational Social Systems&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+# About me
+
+.pull-left[
+.center[
+&lt;img src="Profile.jpg" width="270" /&gt;
+]]
+
+.pull-right[
+&lt;br&gt;
+Website: [dgarcia.eu](https://dgarcia.eu)
+
+Twitter: [@dgarcia_eu](https://twitter.com/dgarcia_eu)
+
+Github: [dgarcia-eu](https://github.com/dgarcia-eu)
+
+Email: dgarcia@tugraz.at
+]
+
+- Professor for Computational Behavioral and Social Sciences at TU Graz
+- Professor for Social and Behavioral Data Science at the University of Konstanz
+- Faculty member of the Complexity Science Hub Vienna
+
+
+---
+
+# Course objectives
+
+1. Learning the fundamentals of computational methods and data science to study **human behavior** and technological phenomena in the digital society. 
+
+2. To understand methodological **opportunities and limitations**, as well as how to apply these methods in practical sessions.
+
+3. How to plan, execute, and reflect on the **empirical analysis** of digital trace data to address questions about human behavior and emergent technological phenomena. 
+
+4. Special emphasis on an **interdisciplinary approach** that can inform students from various disciplines.
+
+---
+
+# Course topics
+
+- **Introduction to Computational Social Systems**
+- **Search Behavior**
+- **Social Trends**
+- **Social Impact**
+- **Social Media Text Analysis**
+- **Supervised Sentiment Analysis**
+- **Social network analysis** 
+- **Centrality in social networks** 
+- **Social resilience of online communities** 
+- **Online social network structures** 
+- **Societal issues** 
+- **Ethical and scientific issues** 
+
+---
+
+# Exercises and practical sessions
+
+**TO DO: info on tutorials!!!**
+
+  - Exercise 1: Future orientation and economic development
+  - Exercise 2: Division of impact on Twitter
+  - Exercise 3: Evaluating sentiment analysis methods
+  - Exercise 4: Twitter network analysis
+
+---
+
+# Time, place, online
+
+- **TO DO: info on logistics!!!**
+
+Foundations of CSS Discord (only this course): https://discord.com/invite/HSCFE8fAdx Use it to ask for help!
+
+---
+
+
+# Projects information
+
+The assessment for the course is based on the final group research project.
+Groups can have at most 4 students and must mix students with different backgrounds.
+
+- Empirical analysis project: data retrieval, processing, analysis, and interpretation. 
+
+- Research questions are very important! (more about that later)
+
+- Can be linked to project in Introduction to CSS. Great opportunity to start working together on a follow-up project in the programme
+
+- We will post project ideas, you can pick from those, reproduce a previous paper, or bring your own idea. 
+
+---
+
+# Course assessment
+
+- The **group** project grade is a combination:
+  - ten-minute presentation (50%)
+  - six-page written report on the project (50%).
+
+- **Individual** extra points (max 20%) can be achieved by delivering solutions to optional exercises
+  - Each exercise is worth 5%
+  - Grade is pass/fail
+  - Feedback on solutions will be available in practice tutorials
+
+- Lecture+Exercises (VU): projects are mandatory
+
+- **Questions?**
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
