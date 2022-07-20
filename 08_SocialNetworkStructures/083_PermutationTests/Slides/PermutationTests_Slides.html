@@ -75,84 +75,33 @@ Once we have measured something or got a statistical result from our analysis, w
 .pull-left[
 - Example: correlation between the Future Orientation Index and the GDP per capita of countries
 
-- Correlation from exercise result:
-
-```r
-cor(mdata$FOI, mdata$GDP)
-```
-
-```
-## [1] 0.6841329
-```
+Correlation in this example: 0.6841329
 ]
 .pull-right[
-
-```r
-plot(mdata$FOI, mdata$GDP)
-```
-
-![](PermutationTests_Slides_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+![](Cor1.png)
 ]
 ---
 
 # Permuted data
 
 .pull-left[
-- If we shuffle one of the columns:
+- If we shuffle one of the columns, the correlation will be close to zero, for example 0.08600673
 
-```r
-shufdata &lt;- mdata[sample(nrow(mdata)),]
-cor(shufdata$FOI, mdata$GDP)
-```
-
-```
-## [1] 0.08600673
-```
 - Idea: repeat this many times to estimate the chances of having a high correlation even though data was permuted
 ]
 .pull-right[
-
-```r
-plot(shufdata$FOI, mdata$GDP)
-```
-
-![](PermutationTests_Slides_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+![](ShufCor.png)
 ]
 
 ---
 
-# Permuting in a loop
-
-We can do the permutation test in R with a loop like this:
-
-
-```r
-N &lt;- 10000 # repeat shuffling for N times
-
-corPerm &lt;- numeric(length = N) 
-# vector with the results of the test statistic under each permutation
-
-for(i in 1:N)
-{
- shufdata &lt;- mdata[sample(nrow(mdata)),]
- corPerm[i] &lt;- cor(shufdata$FOI, mdata$GDP)
-}
-
-corObserved &lt;- cor(mdata$FOI, mdata$GDP)
-```
-
----
 
 # Histogram of permutation results
 
+.center[![](Hist2.png)]
 
-```r
-hist(corPerm, xlim=range(c(corPerm,corObserved)))
-abline(v=corObserved, col="red")
-```
+The red line shows the original correlation without reshuffling
 
-&lt;img src="PermutationTests_Slides_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" /&gt;
- 
 ---
 
 # The p-value of a permutation test
@@ -175,12 +124,7 @@ The p-value is a way to summarize the results of a permutation test.
 We can calculate the one-sided p-value from the permutation test:
 
 ```r
-p_value_Cor &lt;- (sum(corPerm&gt;=corObserved)+1)/length(corPerm)
-p_value_Cor
-```
-
-```
-## [1] 1e-04
+p_value_Cor = (sum(corPerm&gt;=corObserved)+1)/length(corPerm)
 ```
  
 - We add one to the numerator to ensure we don't say zero

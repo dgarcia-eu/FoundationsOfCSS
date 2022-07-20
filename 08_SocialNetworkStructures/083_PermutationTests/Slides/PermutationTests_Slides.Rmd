@@ -72,85 +72,38 @@ Once we have measured something or got a statistical result from our analysis, w
 ---
 
 # Permutation tests in R: FOI and GDP
-```{r echo=F, message=F, results='hide', cache=TRUE}
-library(WDI)
-WDIdf <- WDI(indicator = c("NY.GDP.PCAP.PP.KD", "SP.POP.TOTL", "IT.NET.USER.ZS"),
-             start = 2014, end = 2014, extra = TRUE)
-newdf <- WDIdf[complete.cases(WDIdf) & WDIdf$region != "Aggregates",]
-filteredDF <- newdf[newdf$SP.POP.TOTL*newdf$IT.NET.USER.ZS/100>5000000,] 
-library(gtrendsR)
-trend <- gtrends(keyword = c("2013", "2015"), time = "2014-01-01 2014-12-31")
-library(dplyr)
-trend$interest_by_country %>% filter(keyword=="2013") %>% select(country=location, G2013=hits) -> G2013
-trend$interest_by_country %>% filter(keyword=="2015") %>% select(country=location, G2015=hits) -> G2015
-gdf <- inner_join(G2013,G2015)
-gdf$FOI <- gdf$G2015/gdf$G2013
-mdata <- inner_join(filteredDF, gdf)
-mdata$GDP <- mdata$NY.GDP.PCAP.PP.KD
-mdata %>% filter(!is.na(GDP) & !is.na(FOI)) -> mdata
-```
+
 
 .pull-left[
 - Example: correlation between the Future Orientation Index and the GDP per capita of countries
 
-- Correlation from exercise result:
-```{r, cache=TRUE, fig.width=7, fig.height=5.5}
-cor(mdata$FOI, mdata$GDP)
-```
+Correlation in this example: 0.6841329
 ]
 .pull-right[
-```{r, cache=TRUE, fig.width=7, fig.height=6}
-plot(mdata$FOI, mdata$GDP)
-```
+![](Cor1.png)
 ]
 ---
 
 # Permuted data
 
 .pull-left[
-- If we shuffle one of the columns:
-```{r, cache=TRUE, fig.width=7, fig.height=5.5}
-shufdata <- mdata[sample(nrow(mdata)),]
-cor(shufdata$FOI, mdata$GDP)
-```
+- If we shuffle one of the columns, the correlation will be close to zero, for example 0.08600673
+
 - Idea: repeat this many times to estimate the chances of having a high correlation even though data was permuted
 ]
 .pull-right[
-```{r, cache=TRUE, fig.width=7, fig.height=6}
-plot(shufdata$FOI, mdata$GDP)
-```
+![](ShufCor.png)
 ]
 
 ---
 
-# Permuting in a loop
-
-We can do the permutation test in R with a loop like this:
-
-```{r, cache=TRUE }
-N <- 10000 # repeat shuffling for N times
-
-corPerm <- numeric(length = N) 
-# vector with the results of the test statistic under each permutation
-
-for(i in 1:N)
-{
- shufdata <- mdata[sample(nrow(mdata)),]
- corPerm[i] <- cor(shufdata$FOI, mdata$GDP)
-}
-
-corObserved <- cor(mdata$FOI, mdata$GDP)
-```
-
----
 
 # Histogram of permutation results
 
-```{r, cache=TRUE, fig.width=10, fig.height=6, fig.align='center'}
-hist(corPerm, xlim=range(c(corPerm,corObserved)))
-abline(v=corObserved, col="red")
-```
- 
+.center[![](Hist2.png)]
+
+The red line shows the original correlation without reshuffling
+
 ---
 
 # The p-value of a permutation test
@@ -171,9 +124,8 @@ The p-value is a way to summarize the results of a permutation test.
 
 
 We can calculate the one-sided p-value from the permutation test:
-```{r, cache=TRUE }
-p_value_Cor <- (sum(corPerm>=corObserved)+1)/length(corPerm)
-p_value_Cor
+```{r, eval=F, echo=T}
+p_value_Cor = (sum(corPerm>=corObserved)+1)/length(corPerm)
 ```
  
 - We add one to the numerator to ensure we don't say zero
