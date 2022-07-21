@@ -54,7 +54,7 @@ The data captured by digital traces can have six qualities that complement other
 - **Fast Data:** Quantifying aspects of human behavior in real time  
  Example: [Earthquake detection with social media](https://doi.org/10.4401/ag-5364)  
 - **Long Data:** Retrieving longitudinal data and at various timescales  
- Example: [Analyzing cultural trends with Google books](http://www.sciencemag.org/content/331/6014/143.3.full)  
+ Example: [Analyzing cultural trends with Google books](https://www.science.org/doi/pdf/10.1126/science.1199644)  
 - **Deep Data:** Gathering persistent information on individuals  
  Example: [Estimating personality with Facebook likes](https://www.pnas.org/content/110/15/5802)  
 - **Mixed Data:** Combining heterogeneous datasources and unstructured data  
