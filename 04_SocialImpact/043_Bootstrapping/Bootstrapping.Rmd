@@ -23,10 +23,12 @@ Given the computational power we have nowadays, bootstrapping is an easy option 
 In this example, we are going to assess the uncertainty over the measurement of the mean in a survey about people's height (Height Data from National Health Interview Survey, 2007). 
 
 Some of the heights in the sample look like this (in inches):
-```{r echo=F}
+
+> 
+```{r echo=F, results='asis'}
 DataFrame <- read.csv("NHIS2007.csv")
 ObservedHeights <- DataFrame$height
-head(ObservedHeights)
+cat(head(ObservedHeights))
 BootSample <- sample(ObservedHeights, replace = T)
 ```
 
@@ -37,7 +39,9 @@ To generate a boostrap sample we should resample once with replacement and compu
 You will see that this mean value is slightly different as the first one. We have simulated what would be another sample from the total population, assuming that the first sample was representative of the total population.
 
 Now we can repeat the bootstrap sample and measurement a lot of times, here we do it 10000 with a loop, saving the results in a vector. The vector will look like this:
-```{r echo=F}
+
+> 
+```{r echo=F, results='asis'}
 # obtaining M bootstrap samples and calculate mean value of each bootstrap sample
 M <- 10000
 r.mean <- numeric(M)
@@ -46,7 +50,7 @@ for(i in 1:M)
   BootSample <- sample(ObservedHeights, replace = T)
   r.mean[i] <- mean(BootSample)
 }
-head(r.mean)
+cat(head(r.mean))
 ```
 
 It might take a few seconds for this small sample but with larger ones, you might want to try 1000 or 5000 samples only unless you want to leave the analysis running overnight.
@@ -57,7 +61,7 @@ This median is extremely close to the mean we calculated over the full sample. T
 
 Now we can assess the uncertainty of the measurement by surveying the distribution of measurements over the bootstrap samples:
 ```{r echo=F}
-hist(r.mean) # plot histogram of the measured means over the boostrap samples
+hist(r.mean, main="", xlab="mean of bootstrap sample") # plot histogram of the measured means over the boostrap samples
 ```
 
 The histogram is pretty concentrated around the median value, we can barely see any example below 69.1 or above 70. To be more precise about this we can calculate the standard deviation of this distribution or the 95% high density interval, which is the interval between the 2.5% lowest value and the 97.5% highest value. 

@@ -37,26 +37,6 @@ layout: true
 <div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
 
 ---
-# So far
-
-- Behavior traces
-  - Search behavior and future orientation
-  - Social trends: the Simmel effect
-  - Social impact theory: division of impact on Twitter
-  
-  
-- Analyzing text
-  - Dictionary methods: how to do it in R
-  - Supervised sentiment analysis
-
-
-- Social network analysis
-  - Basics of social networks: terminology
-  - The friendship paradox
-  - Centrality and social resilience
-
-
----
 
 # Triadic closure
 

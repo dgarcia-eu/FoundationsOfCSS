@@ -130,26 +130,3 @@ The k-shell number of a node is also called **coreness centrality**.
 The cost to benefit ratio $c/b$ defines a critical value of the degree $K$, below which users with degree $k_u<K$ will leave the social network. The remaining active social network is the k-core corresponding to $K$. The cumulative function of coreness values in the network serves as a **resilience function**:
 
 .center[![](resilience.png)]
-
----
-
-# Summary
-
-- Measuring importance in social network: definitions matter!
-  - if number of connections: degree
-  - if brokering paths: betweenness
-  - if reaching others: closeness
-  
-  
-- Dunbar's number as a limit to degree in social networks
-
-
-- The story of disappeared social networks
-  - The problem with Google trends data
-  - Temporal validity and predictions
-  
-  
-- Social resilience
-  - Modeling user decisions depending on benefits and costs
-  - Coreness centrality to measure resilience
-

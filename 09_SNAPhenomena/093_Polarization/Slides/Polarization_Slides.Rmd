@@ -124,27 +124,3 @@ The question "does social media create polarization?" implies an oversimplificat
 - the social context of polarized societies (e.g. partisan vs ethnic).
 
 The issue of polarization is an example of why we need precise and robust definitions, why we need research on many different platforms, and why we need no-WEIRD (Western, Educated, Industrialized, Rich and Democratic) populations in research.
-
----
-
-
-# Summary
-
-- Privacy in the digital society
-  - Digital traces predict private attributes
-  - Informational self-determination
-  - Online privacy is complex: the shadow profiles problem
-  
-  
-- Misinformation and information disorder
-  - Fake news in the 2016 US presidential election
-  - Terminology matters: information disorder
-  - Methods for detection and strategies for intervention
-
-
-- Polarization and digital technologies 
-  - Definitions of polarization, filter bubbles, and echo chambers
-  - The leaving Facebook experiment
-  - How connecting across echo chambers might increase polarization
-
-

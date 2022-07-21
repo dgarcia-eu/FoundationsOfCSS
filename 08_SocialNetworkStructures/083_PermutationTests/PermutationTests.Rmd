@@ -36,12 +36,12 @@ mdata$GDP <- mdata$NY.GDP.PCAP.PP.KD
 mdata %>% filter(!is.na(GDP) & !is.na(FOI)) -> mdata
 ```
 
-At the end of the [GDP and FOI exercise](https://dgarcia-eu.github.io/SocialDataScience/1_Introduction/018_FOIExercise/GDP_FOI.html), you will permute the FOI vector and calculated the correlation coefficient. Before the permutation, the scatter plot and correlation between GDP and FOI looked like this:
+In the analysis of the correlation between GDP and FOI of countries, you can run a permutation test. Before permutations, the scatter plot and correlation between GDP and FOI looks like this:
 ```{r echo=F}
 plot(mdata$FOI, mdata$GDP, xlab="GDP", ylab="FOI")
 ```
 
-And after the permutation, they looked like this:
+And after one permutation, they look like this:
 
 ```{r echo=F}
 shufdata <- mdata[sample(nrow(mdata)),]

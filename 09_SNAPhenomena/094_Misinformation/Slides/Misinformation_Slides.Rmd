@@ -173,3 +173,28 @@ Countering misinformation and fake news through inoculation and prebunking. S. L
 </div>
 
 
+
+---
+
+# Summary
+
+
+- The story of disappeared social networks
+  - The problem with Google trends data
+  - Temporal validity and predictions
+  
+  
+- Social resilience
+  - Modeling user decisions depending on benefits and costs
+  - Coreness centrality to measure resilience
+
+
+- Polarization and digital technologies 
+  - Definitions of polarization, filter bubbles, and echo chambers
+  - Absence of simple effects and explanations
+
+
+- Misinformation and information disorder
+  - Fake news in the 2016 US presidential election
+  - Terminology matters: information disorder
+

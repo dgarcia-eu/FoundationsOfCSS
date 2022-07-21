@@ -18,5 +18,4 @@ output: html_document
 
 -  [Internet Research: Ethical Guidelines 3.0. Association of Internet Researchers (2019)](https://aoir.org/reports/ethics3.pdf)
 
--  [Users' Views of Ethics in Social Media Research: Informed Consent, Anonymity, and Harm. Williams et al, 2017](emerald.com/insight/content/doi/10.1108/S2398-601820180000002002/full/html)
-]
+-  [Users' Views of Ethics in Social Media Research: Informed Consent, Anonymity, and Harm. Williams et al, 2017](https://www.emerald.com/insight/content/doi/10.1108/S2398-601820180000002002/full/html)

@@ -46,14 +46,14 @@ Bootstrap simulates the sampling of our original data.
 To bootstrap, we resample from our sample by generating new samples of the same size as our original sample  **with replacement**
 ---
 
-# R example 1: the mean of a variable
+# Example: the mean of a variable
 
-First, we load the data and measure the mean over our sample. We will use the height Data from National Health Interview Survey (NHIS) 2007.
+First, we load the data and measure the mean over our sample. We will use the height Data from National Health Interview Survey (NHIS) 2007. The first few heights in the dataset look like this (inches):
 
-```{r echo=F}
+```{r echo=F, results='asis'}
 DataFrame <- read.csv("NHIS2007.csv")
 ObservedHeights <- DataFrame$height
-head(ObservedHeights)
+cat(head(ObservedHeights))
 BootSample <- sample(ObservedHeights, replace = T)
 ```
 
@@ -69,7 +69,9 @@ To generate a boostrap sample we should resample once with replacement and compu
 You will see that this mean value is slightly different as the first one. We have simulated what would be another sample from the total population, assuming that the first sample was representative of the total population.
 
 Now we can repeat the bootstrap sample and measurement a lot of times, here we do it 10000 with a loop, saving the results in a vector. The vector will look like this:
-```{r echo=F}
+
+
+```{r echo=F, results='asis'}
 # obtaining M bootstrap samples and calculate mean value of each bootstrap sample
 M <- 10000
 r.mean <- numeric(M)
@@ -78,7 +80,7 @@ for(i in 1:M)
   BootSample <- sample(ObservedHeights, replace = T)
   r.mean[i] <- mean(BootSample)
 }
-head(r.mean)
+cat(head(r.mean))
 ```
 
 Over the results we can now see the median, which is the point that separates 50% of the results on one side and 50% on the other. In this case the median is `r median(r.mean)` inches.
@@ -87,7 +89,7 @@ Over the results we can now see the median, which is the point that separates 50
 # Uncertainty in the measure
 
 ```{r echo=F, fig.height=5.2, fig.align='center'}
-hist(r.mean) # plot histogram of the measured means over the boostrap samples
+hist(r.mean, main="", xlab="mean of bootstrap sample") # plot histogram of the measured means over the boostrap samples
 ```
 
 - Histogram of means measured over each bootstrap sample

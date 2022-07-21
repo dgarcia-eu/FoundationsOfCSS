@@ -49,7 +49,7 @@ abline(model$coefficients[1], model$coefficients[2], col="red")
 segments(df$FOI,model$fitted.values, df$FOI,df$GDP, col="darkgreen")
 ```
 
-Linear regression analyses might have some assumptions regarding residuals. For example, the standard assumptions in many research projects is that residuals have zero mean, are normally distributed with some standard deviation ($\epsilon \sim N(0,\sigma)$, and that are uncorrelated with both $X$ and $Y$. At the end of this tutorial you have ways to inspect if these assumptions are met.
+Linear regression analyses might have some assumptions regarding residuals. For example, the standard assumptions in many research projects is that residuals have zero mean, are normally distributed with some standard deviation ($\epsilon \sim N(0,\sigma)$), and that are uncorrelated with both $X$ and $Y$. At the end of this tutorial you have ways to inspect if these assumptions are met.
 
 ### Ordinary Least Squares (OLS)
 

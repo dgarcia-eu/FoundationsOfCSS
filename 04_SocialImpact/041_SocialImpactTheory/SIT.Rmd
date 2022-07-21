@@ -24,9 +24,9 @@ The presence or actions of others can be:
 - *imagined:* mental representation of others, e.g. supporters of your team when watching TV sports
 
 
-[Solomon Asch's conformity experiments](https://en.wikipedia.org/wiki/Asch_conformity_experiments) showed some early evidence of how social impact works. These experiments focused on how often people change their behavior due to peer pressure in a group. In the elevator experiment, a group of experiment helpers (also called confederates), display some behavior different to the one of an unsuspecting experiment participant. The recorded outcome is whether the participant imitates their behavior, for example looking away from the elevator entrance. In the experiment, they changed the number of confederates, finding that the more people are exerting peer pressure, the higher the probability of the participant to change their behavior. You can see a comedic version of the experiment for the [Candid Camera TV show in 1962](https://www.youtube.com/watch?v=P00i7_C8tl8): 
+[Solomon Asch's conformity experiments](https://en.wikipedia.org/wiki/Asch_conformity_experiments) showed some early evidence of how social impact works. These experiments focused on how often people change their behavior due to peer pressure in a group. In the elevator experiment, a group of experiment helpers (also called confederates), display some behavior different to the one of an unsuspecting experiment participant. The recorded outcome is whether the participant imitates their behavior, for example looking away from the elevator entrance. In the experiment, they changed the number of confederates, finding that the more people are exerting peer pressure, the higher the probability of the participant to change their behavior. Here you can see a snapshot of a comedic version of the experiment for the Candid Camera TV show in 1962, and how a participant turned around during the experiment: 
 
-[![Elevator experiment](Elevator.png){width=100%}](https://www.youtube.com/watch?v=XZDLbbfT9_Q "Elevator experiment in Candid Camera (1962)")
+![](Elevator.png){width=100%}
 
 ### Social Impact Theory
 

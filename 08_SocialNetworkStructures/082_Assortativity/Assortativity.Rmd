@@ -32,7 +32,7 @@ r=\frac{\sum_c e_{cc}-\sum_c a_c b_c}{1-\sum_c a_c b_c}
 
 For example, the network of the figure is assortative with respect to color. You can notice that just by looking at it, four out of five links happen between nodes of the same color. However, it is always good to calculate the assortativity coeffcient, especially when networks are a bit larger. The way the network is laid out on the picture can be deceiving.
 
-The figure on the right shows the example of an assortative online social network appearing in [my previous research about Swiss politicians in the Politnetz platform](https://arxiv.org/abs/1503.07711). The property of nodes is the party politicians belong to, and the edges are determined by the support relationships among politicians. You can do a similar analysis for [Swiss politicians using Twitter data in our exercise on that topic](https://dgarcia-eu.github.io/SocialDataScience/5_SocialNetworkPhenomena/058_PoliticianAssortativity/PoliticianAssortativity.html).
+The figure on the right shows the example of an assortative online social network appearing in [my previous research about Swiss politicians in the Politnetz platform](https://arxiv.org/abs/1503.07711). The property of nodes is the party politicians belong to, and the edges are determined by the support relationships among politicians.
 
 Networks can also be \textbf{disassortative} if $r<0$, i.e. nodes have a tendency to be connected to dissimilar nodes rather than similar nodes. An example of a disassortative network is the network of contact in a job fair with respect to being seeking or offering employment. Job seekers tend to have contact with job providers more than with job seekers.
 
@@ -64,7 +64,7 @@ Typical examples of homophily are company directors becoming friends of other co
 
 In the process of contagion, the network structure might not change but the attributes can change. In the example, the color of nodes $e$, $b$ and $c$ might change to the color of $a$, generating assortativity due to contagion.
 
-The idea of contagion is related to the topics of [Social Impact Theory](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/021_SocialImpactTheory/SIT.html), which focused on the individual-level forces of behavior change, and the [Simmel Effect](https://dgarcia-eu.github.io/SocialDataScience/2_SocialDynamics/022_SimmelEffect/SimmelEffect.html), which focused on the temporal dynamics of aggregated behaviors like fashions. Here the perspective is the structure of the whole network, as we can see the traces of social contagion if we have network and attribute data that we analyze through assortativity.
+The idea of contagion is related to the topics of Social Impact Theory, which focused on the individual-level forces of behavior change, and the Simmel Effect, which focused on the temporal dynamics of aggregated behaviors like fashions. Here the perspective is the structure of the whole network, as we can see the traces of social contagion if we have network and attribute data that we analyze through assortativity.
 
 Examples of social contagion are clothing fashions, food habits, sometimes political orientation, etc.
 

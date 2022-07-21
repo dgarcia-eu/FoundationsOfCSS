@@ -37,29 +37,6 @@ layout: true
 <div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
 
 ---
-# So far
-
-- Behavior traces
-  - Search behavior and future orientation
-  - Social trends: the Simmel effect
-  - Social impact theory: division of impact on Twitter
-  
-  
-- Analyzing text
-  - Dictionary methods: how to do it in R
-  - Supervised sentiment analysis
-
-
-- Social network analysis
-  - Basics of social networks: terminology
-  - Centrality and social resilience
-  - Communities, assortativity, and permutation tests
-
-
-- Solution session today: Swiss politician data on Twitter
-
-
----
 
 ## Facebook likes predict private attributes
 
@@ -201,3 +178,24 @@ knitr::include_graphics("figures/wired.png")
 [**Collective Aspects of Privacy in the Twitter Social Network.** D. Garcia, M. Goel, A. Agrawal, P. Kumaraguru, EPJ Data Science, 7(3) (2018)](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0130-3)  
 [**Privacy beyond the individual.** D. Garcia. Nature Human Behavior (2019)](https://www.nature.com/articles/s41562-018-0513-2)
 
+---
+
+# Summary
+
+- Representation issues
+  - Social media is not used the same way by everyone
+  - Digital traces are produced for business, not research
+  - The case of German elections on Twitter
+
+
+- Ethics in computational social systems
+  - No harm principle
+  - Cases of previous ethical issues in digital trace data research
+  - Recommendations for Big Data research
+
+
+- Privacy in the digital society
+  - Digital traces predict private attributes
+  - Informational self-determination
+  - Online privacy is complex: the shadow profiles problem
+  

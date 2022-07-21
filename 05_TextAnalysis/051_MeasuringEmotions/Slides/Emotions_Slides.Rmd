@@ -40,12 +40,12 @@ layout: true
 
 # So Far
 
-- Computational Social Systems and new social data
-  - R tutorials including data wrangling with dplyr
+- Computational Social Systems
+  - New social data from online technologies
 
 
 - Search behavior and future orientation
-  - How to get data from Google trends
+  - How to get data from Google trends and the World Bank
 
 
 - Social trends: the Simmel effect

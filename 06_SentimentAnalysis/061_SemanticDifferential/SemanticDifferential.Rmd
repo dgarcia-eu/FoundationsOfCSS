@@ -48,7 +48,7 @@ In this case, participants rated the word *polite* in the set of scales with adj
 
 ### Semantic differential example: fonts
 
-Not only the meaning of words can be measured with the semantic differential, but many other symbols and modes of communication that can carry connotative meaning. For example in [Know Your Typefaces! Semantic Differential Presentation of 40 Onscreen Typefaces. A. D. Shaikh.](http://usabilitynews.org/know-your-typefaces-semantic-differential-presentation-of-40-onscreen-typefaces/), you can find how text fonts can be rated according to Osgood's Semantic Differential. The study shows participants a text and scales as shown below:
+Not only the meaning of words can be measured with the semantic differential, but many other symbols and modes of communication that can carry connotative meaning. For example in [Know Your Typefaces! Semantic Differential Presentation of 40 Onscreen Typefaces. A. D. Shaikh.](https://mattheerema.com/web-tech-design/2009/10/evaluating-40-typefaces/), you can find how text fonts can be rated according to Osgood's Semantic Differential. The study shows participants a text and scales as shown below:
 
 ![](Ratings.png)
 
