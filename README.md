@@ -24,23 +24,21 @@ In exercises, you collect your own data and try to answer questions about human 
 ### Day 1
 
 1. **Introduction to Computational Social Systems**  
-1.1. Course administration and information  
+1.1. Course administration and information -- [[Slides]](01_Introduction/011_CourseIntroduction/Slides/CourseIntroduction_Slides.html)  
 1.2. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_ComputationalSocialSystems/ComputationalSocialSystems) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_ComputationalSocialSystems/Slides/ComputationalSocialSystems_Slides.html)  
 1.3. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/013_SocialDataScience/SocialDataScience) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/013_SocialDataScience/Slides/Introduction_Slides.html)    
 
 2. **Search Behavior**  
 2.1. [Measuring temporal orientation with Google Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/TemporalOrientationGtrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/021_TemporalOrientation/Slides/TemporalOrientationGtrends_Slides.html)     
-2.1b. [Google Trends data (to merge)](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/gtrendsR.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_gtrendsR/Slides/GTrendsR_Slides.html)    
-2.1c. [Accessing the World Development Indicators from R (to merge)](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/WDI.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_WDI/Slides/WDI_Slides.html)     
-2.2. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/GoogleFluTrends) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/014_GoogleFluTrends/Slides/GoogleFluTrends_Slides.html)  
-2.3. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/MeasuringCorrelation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/024_Correlation/Slides/MeasuringCorrelation_Slides.html)   
+2.2. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_GoogleFluTrends/GoogleFluTrends) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/022_GoogleFluTrends/Slides/GoogleFluTrends_Slides.html)  
+2.3. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_Correlation/MeasuringCorrelation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/02_Search/023_Correlation/Slides/MeasuringCorrelation_Slides.html)   
 
 ### Day 2
 
 3. **Social Trends**  
 3.1. [The Simmel Effect and Online Social Trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/031_SimmelEffect/SimmelEffect.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/031_SimmelEffect/Slides/SimmelEffect_Slides.html)  
-3.2. [Old Big Data: Baby name trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/BabyNameTrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_BabyNameTrends/Slides/BabyNameTrends_Slides.html)  
-3.3. [Linear regression](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/LinearRegression.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/034_LinearRegression/Slides/LinearRegression_Slides.html)
+3.2. [Old Big Data: Baby name trends](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/032_BabyNameTrends/BabyNameTrends.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/032_BabyNameTrends/Slides/BabyNameTrends_Slides.html)  
+3.3. [Linear regression](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_LinearRegression/LinearRegression.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/03_SocialTrends/033_LinearRegression/Slides/LinearRegression_Slides.html)
 
 4. **Social Impact**  
 4.1. [Social Impact Theory](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/SIT.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/04_SocialImpact/041_SocialImpactTheory/Slides/SIT_Slides.html)   
@@ -58,35 +56,33 @@ In exercises, you collect your own data and try to answer questions about human 
 6. **Supervised Sentiment Analysis**  
 6.1. [The semantic differential](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/061_SemanticDifferential/SemanticDifferential.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/061_SemanticDifferential/Slides/SemanticDifferential_Slides.html)  
 6.2. [Supervised sentiment analysis](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/062_SupervisedSentimentAnalysis/SupervisedSentimentAnalysis.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/062_SupervisedSentimentAnalysis/Slides/SupervisedSentimentAnalysis_Slides.html)  
-6.3. [Sentiment analysis applications](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/063_SentimentAnalysisApplications/Slides/SentimentApplications_Slides.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/063_SentimentAnalysisApplications/Slides/SentimentApplications_Slides.html)  
+6.3. Sentiment analysis applications -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/06_SentimentAnalysis/063_SentimentAnalysisApplications/Slides/SentimentApplications_Slides.html)  
 
 ### Day 4
 
 7. **Social network analysis**   
 7.1. [Introduction to social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/SNAIntro.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/071_SNAIntro/Slides/SNAIntro_Slides.html)  
-7.2. [The Friendship paradox](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/FriendshipParadox.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_FriendshipParadox/Slides/FriendshipParadox_Slides.html)    
-7.3. [Sampling bias on Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/TwitterOpinions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_TwitterOpinions/Slides/TwitterOpinions_Slides.html)   
+7.2. [Centrality and importance](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_Centrality/Centrality.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/072_Centrality/Slides/Centrality_Slides.html)  
+7.3. [The Friendship paradox](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_FriendshipParadox/FriendshipParadox.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/07_SNA/073_FriendshipParadox/Slides/FriendshipParadox_Slides.html)    
 
-
-8. **Centrality and social network structures**   
-8.1. [Centrality and importance](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/081_Centrality/Centrality.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/081_Centrality/Slides/Centrality_Slides.html)   
-8.2. [Structural holes and assortativity](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/StructuralHoles.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/091_StructuralHoles/Slides/StructuralHoles_Slides.html)    
-8.2b. [Assortativity (to merge)](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/092_Assortativity/Assortativity.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS//09_SocialNetworkStructures/092_Assortativity/Slides/Assortativity_Slides.html)   
-8.3. [Permutation tests](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/PermutationTests.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SocialNetworkStructures/093_PermutationTests/Slides/PermutationTests_Slides.html)    
+8. **Social network structures**   
+8.1. [Structural holes](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/081_StructuralHoles/StructuralHoles.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/081_StructuralHoles/Slides/StructuralHoles_Slides.html)    
+8.2. [Assortativity](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/082_Assortativity/Assortativity.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/082_Assortativity/Slides/Assortativity_Slides.html)   
+8.3. [Permutation tests](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/083_PermutationTests/PermutationTests.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_SocialNetworkStructures/083_PermutationTests/Slides/PermutationTests_Slides.html)    
 
 ### Day 5
 
-9. **Social resilience**  
-9.1. [The death of online social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/082_SocialNetworkDeath/SocialNetworkDeath.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/082_SocialNetworkDeath/Slides/SocialNetworkDeath_Slides.html)  
-9.1b. [Social resilience and coreness centrality (to merge)](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/083_SocialResilience/SocialResilience.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/08_Centrality/083_SocialResilience/Slides/SocialResilience_Slides.html)  
-9.2 [Polarization and digital technologies](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Polarization/Polarization.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Polarization/Slides/Polarization_Slides.html)  
-9.3. [Misinformation and information disorder](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Misinformation/Misinformation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Misinformation/Slides/Misinformation_Slides.html)  
+9. **Social network phenomena**  
+9.1. [The death of online social networks](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/091_SocialNetworkDeath/SocialNetworkDeath.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/091_SocialNetworkDeath/Slides/SocialNetworkDeath_Slides.html)  
+9.2. [Social resilience and coreness centrality](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/092_SocialResilience/SocialResilience.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/092_SocialResilience/Slides/SocialResilience_Slides.html)  
+9.3. [Polarization and digital technologies](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/093_Polarization/Polarization.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/093_Polarization/Slides/Polarization_Slides.html)  
+9.4. [Misinformation and information disorder](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/094_Misinformation/Misinformation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/094_Misinformation/Slides/Misinformation_Slides.html)  
 
 
-10. **Social issues issues**  
-10.1 [Representation and bias (twitter politics case)]()  
-10.2 [The ethics of social media research](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/111_Ethics/Ethics.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/11_EthicalAndScientificIssues/111_Ethics/Slides/Ethics_Slides.html)  
-10.3 [Privacy in the digital society](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_Privacy/Privacy.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_Privacy/Slides/Privacy_Slides.html)    
+10. **Social issues**  
+10.1. [Representation issues - The case of Twitter](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_TwitterOpinions/TwitterOpinions.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/101_TwitterOpinions/Slides/TwitterOpinions_Slides.html)   
+10.2. [The ethics of social media research](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Ethics/Ethics.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Ethics/Slides/Ethics_Slides.html)  
+10.3. [Privacy in the digital society](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Privacy/Privacy.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/103_Privacy/Slides/Privacy_Slides.html)    
 
 
 
