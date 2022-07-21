@@ -32,7 +32,7 @@ Systems in which humans and machines interact through Information and Communicat
 
 Computational social systems generate new social phenomena that did not exist before the digital transformation, motivating research and technology development that we will discuss in the Social Computing topic.
 
-Computational social systems produce new data on human behavior that is transforming the social and human sciences, as well as creating new business opportunities and legal issues. We will discuss about that in the [Social Data Science topic](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_SocialDataScience/SocialDataScience.html).
+Computational social systems produce new data on human behavior that is transforming the social and human sciences, as well as creating new business opportunities and legal issues. We will discuss about that in the Social Data Science topic.
 
 Here, we are going to see an example of the study of computational social systems from four disciplines: Psychology, Sociology, Business analytics, and Law studies:
 
