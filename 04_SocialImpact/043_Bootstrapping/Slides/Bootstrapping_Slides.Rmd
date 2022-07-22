@@ -94,3 +94,25 @@ hist(r.mean, main="", xlab="mean of bootstrap sample") # plot histogram of the m
 
 - Histogram of means measured over each bootstrap sample
 - 95% of the examples fell between ```r quantile(r.mean, 0.025)``` and ```r quantile(r.mean, 0.975)```, this is called the 95% confidence interval.
+
+---
+
+# Summary of block 4
+
+- Social Impact Theory
+  - Modelling behavior changes due to others
+  - Theory based in three variables: strength, immediacy, and N sources
+  - Sublinear effect of number of sources: the psychosocial law
+  - Sublinear growth of influence with audience size: division of impact
+  
+  
+- Online social influence
+  - Spreading behavior is short-lived
+  - Memes don't spread like viruses
+  - Time, proximity, and number of exposures matter
+  
+  
+- Bootstrapping
+  - A method to assess the uncertainty of a statistic
+  - Resampling with replacement to simulate data generation
+  - Example with the mean and its 95% confidence interval
