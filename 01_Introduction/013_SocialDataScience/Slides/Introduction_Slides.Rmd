@@ -128,3 +128,22 @@ Deep Thought, from the movie version of The Hitchhiker's Guide to the Galaxy.
 
 > **Understanding our questions is a prerequisite to understanding their answers.**
 
+---
+
+# Summary of block 1
+
+- Course introduction and evaluation
+  - Block course + exercises during the semester  
+  - Form interdisciplinary groups for projects!
+  - Projects can be aligned with Intro to CSS
+
+
+- Computational Social Systems
+  - The digital transformation and datafication
+  - Examples: mood analysis and flash crashes
+
+
+- Social Data Science
+  - Types of new social and behavioral data
+  - Opportunities and limitations: more during the course
+  - The importance of questions in Data Science
