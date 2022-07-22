@@ -112,3 +112,26 @@ For our model example, the $R^2$ is `r 1-var(residuals(model))/var(df$GDP)`
 <center>
 ![:scale 90%](https://imgs.xkcd.com/comics/extrapolating.png)
 </center>
+
+---
+
+# Summary of block 3
+
+- **The Simmel effect**
+  - Theory of fashion: it always changes but there is always a fashion
+  - Explained by imitation and differentiation
+  - Social trends in online platforms: the endo-exo model
+  
+  
+- **Baby names data**
+  - Example of old big data
+  - Usable to test the Simmel effect
+  - Trends are hard to predict but show patterns of behavior
+  
+  
+- **Linear Regression**
+  - Formalizing how one quantity depends on a linear combination of others
+  - Residuals and goodness of fit
+  
+  
+  

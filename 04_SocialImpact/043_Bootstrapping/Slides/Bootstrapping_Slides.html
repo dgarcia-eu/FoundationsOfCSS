@@ -52,7 +52,7 @@ First, we load the data and measure the mean over our sample. We will use the he
 
 With the mean height over the sample being 69.5782654 inches.
 
-To generate a boostrap sample we should resample once with replacement and compute the mean over the resulting sample. An example of bootstrap mean is 69.5293626 inches.
+To generate a boostrap sample we should resample once with replacement and compute the mean over the resulting sample. An example of bootstrap mean is 69.5423197 inches.
 
 
 ---
@@ -64,9 +64,9 @@ You will see that this mean value is slightly different as the first one. We hav
 Now we can repeat the bootstrap sample and measurement a lot of times, here we do it 10000 with a loop, saving the results in a vector. The vector will look like this:
 
 
-69.61379 69.63699 69.63887 69.64472 69.50136 69.75381
+69.85601 69.59352 69.62717 69.5302 69.62717 69.59415
 
-Over the results we can now see the median, which is the point that separates 50% of the results on one side and 50% on the other. In this case the median is 69.5774295 inches.
+Over the results we can now see the median, which is the point that separates 50% of the results on one side and 50% on the other. In this case the median is 69.5760711 inches.
 ---
 
 # Uncertainty in the measure
@@ -74,7 +74,29 @@ Over the results we can now see the median, which is the point that separates 50
 &lt;img src="Bootstrapping_Slides_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
 
 - Histogram of means measured over each bootstrap sample
-- 95% of the examples fell between ``69.3141066`` and ``69.8440961``, this is called the 95% confidence interval.
+- 95% of the examples fell between ``69.3166092`` and ``69.8453553``, this is called the 95% confidence interval.
+
+---
+
+# Summary of block 4
+
+- **Social Impact Theory**
+  - Modelling behavior changes due to others
+  - Theory based in three variables: strength, immediacy, and N sources
+  - Sublinear effect of number of sources: the psychosocial law
+  - Sublinear growth of influence with audience size: division of impact
+  
+  
+- **Online social influence**
+  - Spreading behavior is short-lived
+  - Memes don't spread like viruses
+  - Time, proximity, and number of exposures matter
+  
+  
+- **Bootstrapping**
+  - A method to assess the uncertainty of a statistic
+  - Resampling with replacement to simulate data generation
+  - Example with the mean and its 95% confidence interval
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
