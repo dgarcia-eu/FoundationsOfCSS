@@ -92,3 +92,26 @@ Independent variables will have a correlation close to zero, but a correlation c
 ---
 ## The Datasaurus dozen
 .center[![:scale 68%](https://d2f99xq7vri1nk.cloudfront.net/AllDinosGrey_1.png)]
+
+---
+
+# Summary of block 2
+
+- Temporal orientation and Google trends
+  - The interplay between culture and the economy
+  - The Future Orientation Index
+  - Exporting Google Trends over times and countries
+  - The World Bank database
+  
+
+- Google Flu trends
+  - When google trends started overestimating flu incidence
+  - All data is better than Big Data
+  - Beware of making Data Piñatas
+  
+
+- Measuring correlation
+  - Quantifying linear associations as a violation of independence property
+  - Not all correlations are the same and many patterns are not linear
+  
+  
